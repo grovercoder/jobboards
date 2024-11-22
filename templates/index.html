@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+<h1>Job Boards</h1>
+
+<article id="preamble">
+    <p>
+        I maintain a list of job boards that might be of interest to you.  This includes the usual boards like Indeed, LinkedIn, Glassdoor, etc.  But it also include more direct boards such as "The City of Calgary", "FOSSNet", and more.
+    </p>
+    
+    <p>Feel free to reach out to me if you are aware of another job board that should be on this list.</p>
+</article>
+
+<div class="filter">
+    <input type="search" id="inputFilter" placeholder="Type here to filter the boards">
+    <a href="./jobboards.csv">Download CSV</a>
+</div>
+
+<article id="jobboards">
+    <div class="jobboard header">
+        <div>Name</div>
+        <div>Market</div>
+    </div>
+    <div class="board_list">
+        {% for board in data.jobboards %}
+        <div class="jobboard">
+            <a href="{{board.url}}" target="_blank">{{ board.name }}</a>
+            <div class="market">
+                {{board.market}}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</article>
+
+{% endblock %}

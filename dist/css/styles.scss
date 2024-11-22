@@ -1,0 +1,66 @@
+
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+#preamble {
+    margin: 0.5em;
+}
+
+.filter {
+    margin: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    input {
+        padding: 0.5em;
+    }
+
+    a {
+        margin: 0 1em;
+    }
+}
+
+#jobboards {
+    padding: 0.5em;
+    margin-bottom: 5em;
+    
+    .jobboard {
+        padding: 0.5em;
+        display: grid;
+        grid-template-columns: 60% auto;
+        
+        &:nth-child(odd) {
+            background-color: #efefef;
+        }
+
+        
+        
+    }
+    
+    .jobboard.header {
+        background-color: #444;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.hide {
+    display: none !important;
+}

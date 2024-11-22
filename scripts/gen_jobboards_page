@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+
+import pandas as pd
+from jinja2 import Environment, FileSystemLoader
+from pathlib import Path
+import shutil
+
+CSVPATH = Path(__file__).parent.resolve().joinpath('../data/jobboards.csv').absolute()
+TEMPLATES_DIR = Path(__file__).parent.resolve().joinpath('../templates').absolute()
+OUTPUTFILE = Path(__file__).parent.resolve().joinpath('../dist/index.html').absolute()
+
+shutil.copy(CSVPATH, OUTPUTFILE.parent)
+
+df = pd.read_csv(CSVPATH)
+df.fillna("", inplace=True)
+df.sort_values(by="name", key=lambda col: col.str.lower(), inplace=True)
+df.reset_index(drop=True, inplace=True)
+
+
+env = Environment(loader=FileSystemLoader(TEMPLATES_DIR), trim_blocks=True, lstrip_blocks=True)
+template = env.get_template('index.html')
+
+context = {
+    "jobboards": df.to_dict(orient="records")
+}
+html_output = template.render(data=context)
+
+with open(OUTPUTFILE, 'w') as fh:
+    fh.write(html_output)
+
