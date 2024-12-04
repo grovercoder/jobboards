@@ -18,7 +18,7 @@ This project provides a simple CSV file listing job boards, as well as a static 
 1. Install the dependencies.  At the moment we only use Pandas (to work with the CSV file) and Jinja2 (to create the web pages).
 
     ```bash
-    pip install -r requirementes.txt
+    pip install -r requirements.txt
     ```
 
 1. Edit the `data/jobboards.csv` file to add/modify/remove job boards.  Save the changes into CSV format.
