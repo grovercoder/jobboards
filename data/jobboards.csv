@@ -1,63 +1,65 @@
-"id","name","city","state","country","market","url","approved"
-"1","Alberta Government Jobs","","Alberta","Canada","","https://www.alberta.ca/government-of-alberta-jobs","1.0"
-"2","AngelList","","","","","https://angel.co/jobs","1.0"
-"7","Authentic Jobs","","","","","https://authenticjobs.com/","1.0"
-"8","Behance","","","","","https://www.behance.net/joblist","1.0"
-"10","CareerBuilder","","","","","https://www.careerbuilder.com/","1.0"
-"11","CivicJobs.ca","","","Canada","","https://www.civicjobs.ca/","1.0"
-"12","Clearance Jobs","","","USA","US","https://www.clearancejobs.com/","1.0"
-"15","Coroflot","","","","","http://www.coroflot.com/jobs","1.0"
-"16","Craigslist","","","","","https://www.craigslist.org/","1.0"
-"18","CrunchBoard","","","","","https://www.crunchboard.com/","1.0"
-"19","Cryptocurrency JobsNEW","","","","","https://cryptocurrencyjobs.co/","1.0"
-"20","Dice","","","","","https://www.dice.com/","1.0"
-"21","Dribbble","","","","Grapic Design","https://dribbble.com/jobs","1.0"
-"22","Drupal Jobs","","","","","https://jobs.drupal.org/","1.0"
-"23","eFinancialCareers","","","","","https://www.efinancialcareers.com/","1.0"
-"26","F6S","","","","","https://www.f6s.com/jobs","1.0"
-"27","Fossjobs.net","","","","","https://www.fossjobs.net/","1.0"
-"28","Freelancer","","","","","https://www.freelancer.com/","1.0"
-"32","Glassdoor","","","","","https://www.glassdoor.com/Job/index.htm","1.0"
-"33","Golang","","","","","https://www.golangprojects.com/","1.0"
-"34","Google","","","","","https://www.google.com/search?q=google%20jobs","1.0"
-"35","Guru","","","","","https://www.guru.com/d/jobs/","1.0"
-"36","Hacker News - Who is hiring?","","","","","https://news.ycombinator.com/submitted?id=whoishiring","1.0"
-"38","HCareers","","","","","https://www.hcareers.com/","1.0"
-"39","Hired","","","","","https://www.lhh.com/us/en/search-jobs/","1.0"
-"41","Icrunchdata","","","","","https://icrunchdata.com/","1.0"
-"42","Idealist","","","","","https://www.idealist.org/","1.0"
-"43","Indeed","","","","","https://www.indeed.com/","1.0"
-"46","Jobs for R-Users","","","","","https://www.r-users.com/","1.0"
-"47","Jobspresso","","","","","https://jobspresso.co/remote-work/","1.0"
-"51","Landing.Jobs","","","","","https://landing.jobs/jobs?hd=false&t_co=false&t_st=false","1.0"
-"52","LaraJobs","","","","","https://larajobs.com/","1.0"
-"53","Law Crossing","","","","","https://www.lawcrossing.com/lcjssearchresults.php","1.0"
-"54","LinkedIn","","","","","https://www.linkedin.com/jobs/","1.0"
-"57","Monster","","","","","https://www.monster.com/","1.0"
-"58","NODESKNEW","","","","","https://nodesk.co/remote-jobs/","1.0"
-"59","NTEN","","","","","https://www.nten.org/jobs/","1.0"
-"63","PeoplePerHour","","","","","https://www.peopleperhour.com/","1.0"
-"64","PostgreSQL","","","","","https://www.postgresql.org/list/pgsql-jobs/","1.0"
-"65","PowerToFly","","","","","https://www.powertofly.com/","1.0"
-"66","Python.org","","","","","https://www.python.org/jobs/","1.0"
-"67","Reddit","","","","","https://www.reddit.com/r/forhire/","1.0"
-"68","Remote.co","","","","","https://remote.co/remote-jobs/","1.0"
-"70","Remote|OK","","","","","https://remoteok.io/","1.0"
-"71","Remotive Jobs","","","","","https://remotive.io/find-a-remote-job/","1.0"
-"74","Startup Jobs","","","","","https://startup.jobs/","1.0"
-"75","StartUs","","","","","https://www.startus.cc/jobs","1.0"
-"76","TeachAway","","","","Teaching","https://www.teachaway.com/teaching-jobs-abroad","1.0"
-"77","Tech Jobs for Good","","","","","https://www.techjobsforgood.com/","1.0"
-"79","TechMeAbroad","","","","","https://techmeabroad.com/","1.0"
-"81","The Muse","","","","","https://www.themuse.com/","1.0"
-"82","The Perl Job Site","","","","Perl","https://jobs.perl.org/","1.0"
-"85","Upwork","","","","","https://www.upwork.com/","1.0"
-"90","We Work Meteor","","","","","https://www.weworkmeteor.com/","1.0"
-"91","We Work Remotely","","","","","https://weworkremotely.com/","1.0"
-"96","Y Combinator","","","","","https://news.ycombinator.com/jobs","1.0"
-"97","SimplyHired","","","","","https://www.simplyhired.ca/","1.0"
-"98","JobsCollider","","","","","https://jobscollider.com/","1.0"
-"99","PostJobFree","","","","","https://www.postjobfree.com/","1.0"
-"100","City of Calgary","","","","","https://www.calgary.ca/careers.html#jobs","1.0"
-"101","City of Airdrie","","","","","https://clients.njoyn.com/CL2/xweb/xweb.asp?tbtoken=YVpcQVUSRB1yZXAERCBJEFdKc3ldcSBVbyQjVlwRBxIsKktoXUBpBmFxPApTVRFRST5l&chk=ZVpaSh0%3D&CLID=61430&page=joblisting&lang=1","1.0"
-"102","Rocky View County","","","","","https://can242.dayforcehcm.com/CandidatePortal/en-US/rockyview","1"
+id,name,city,state,country,market,url,approved
+1,Alberta Government Jobs,,Alberta,Canada,,https://jobpostings.alberta.ca/go/All-Jobs-GoA/2617217/,1
+2,AngelList,,,,,https://angel.co/jobs,1
+7,Authentic Jobs,,,,,https://authenticjobs.com/,1
+8,Behance,,,,,https://www.behance.net/joblist,1
+10,CareerBuilder,,,,,https://www.careerbuilder.com/,1
+11,CivicJobs.ca,,,Canada,,https://www.civicjobs.ca/,1
+12,Clearance Jobs,,,USA,US,https://www.clearancejobs.com/,1
+15,Coroflot,,,,,http://www.coroflot.com/jobs,1
+16,Craigslist,,,,,https://www.craigslist.org/,1
+18,CrunchBoard,,,,,https://www.crunchboard.com/,1
+19,Cryptocurrency JobsNEW,,,,,https://cryptocurrencyjobs.co/,1
+20,Dice,,,,,https://www.dice.com/,1
+21,Dribbble,,,,Grapic Design,https://dribbble.com/jobs,1
+22,Drupal Jobs,,,,,https://jobs.drupal.org/,1
+23,eFinancialCareers,,,,,https://www.efinancialcareers.com/,1
+26,F6S,,,,,https://www.f6s.com/jobs,1
+27,Fossjobs.net,,,,,https://www.fossjobs.net/,1
+28,Freelancer,,,,,https://www.freelancer.com/,1
+32,Glassdoor,,,,,https://www.glassdoor.com/Job/index.htm,1
+33,Golang,,,,,https://www.golangprojects.com/,1
+34,Google,,,,,https://www.google.com/search?q=google%20jobs,1
+35,Guru,,,,,https://www.guru.com/d/jobs/,1
+36,Hacker News - Who is hiring?,,,,,https://news.ycombinator.com/submitted?id=whoishiring,1
+38,HCareers,,,,,https://www.hcareers.com/,1
+39,Hired,,,,,https://www.lhh.com/us/en/search-jobs/,1
+41,Icrunchdata,,,,,https://icrunchdata.com/,1
+42,Idealist,,,,,https://www.idealist.org/,1
+43,Indeed,,,,,https://www.indeed.com/,1
+46,Jobs for R-Users,,,,,https://www.r-users.com/,1
+47,Jobspresso,,,,,https://jobspresso.co/remote-work/,1
+51,Landing.Jobs,,,,,https://landing.jobs/jobs?hd=false&t_co=false&t_st=false,1
+52,LaraJobs,,,,,https://larajobs.com/,1
+53,Law Crossing,,,,,https://www.lawcrossing.com/lcjssearchresults.php,1
+54,LinkedIn,,,,,https://www.linkedin.com/jobs/,1
+57,Monster,,,,,https://www.monster.com/,1
+58,NODESKNEW,,,,,https://nodesk.co/remote-jobs/,1
+59,NTEN,,,,,https://www.nten.org/jobs/,1
+63,PeoplePerHour,,,,,https://www.peopleperhour.com/,1
+64,PostgreSQL,,,,,https://www.postgresql.org/list/pgsql-jobs/,1
+65,PowerToFly,,,,,https://www.powertofly.com/,1
+66,Python.org,,,,,https://www.python.org/jobs/,1
+67,Reddit,,,,,https://www.reddit.com/r/forhire/,1
+68,Remote.co,,,,,https://remote.co/remote-jobs/,1
+70,Remote|OK,,,,,https://remoteok.io/,1
+71,Remotive Jobs,,,,,https://remotive.io/find-a-remote-job/,1
+74,Startup Jobs,,,,,https://startup.jobs/,1
+75,StartUs,,,,,https://www.startus.cc/jobs,1
+76,TeachAway,,,,Teaching,https://www.teachaway.com/teaching-jobs-abroad,1
+77,Tech Jobs for Good,,,,,https://www.techjobsforgood.com/,1
+79,TechMeAbroad,,,,,https://techmeabroad.com/,1
+81,The Muse,,,,,https://www.themuse.com/,1
+82,The Perl Job Site,,,,Perl,https://jobs.perl.org/,1
+85,Upwork,,,,,https://www.upwork.com/,1
+90,We Work Meteor,,,,,https://www.weworkmeteor.com/,1
+91,We Work Remotely,,,,,https://weworkremotely.com/,1
+96,Y Combinator,,,,,https://news.ycombinator.com/jobs,1
+97,SimplyHired,,,,,https://www.simplyhired.ca/,1
+98,JobsCollider,,,,,https://jobscollider.com/,1
+99,PostJobFree,,,,,https://www.postjobfree.com/,1
+100,City of Calgary,,,,,https://www.calgary.ca/careers.html#jobs,1
+101,City of Airdrie,,,,,https://clients.njoyn.com/CL2/xweb/xweb.asp?tbtoken=YVpcQVUSRB1yZXAERCBJEFdKc3ldcSBVbyQjVlwRBxIsKktoXUBpBmFxPApTVRFRST5l&chk=ZVpaSh0%3D&CLID=61430&page=joblisting&lang=1,1
+102,Rocky View County,,,,,https://can242.dayforcehcm.com/CandidatePortal/en-US/rockyview,1
+103,Raise.jobs,,,,,https://raise.jobs/#jobs,1
+104,Levels.fyi,,,,,https://www.levels.fyi/jobs,1
